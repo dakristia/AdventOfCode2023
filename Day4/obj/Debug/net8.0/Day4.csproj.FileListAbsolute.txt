@@ -1,0 +1,14 @@
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\bin\Debug\net8.0\Day4.exe
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\bin\Debug\net8.0\Day4.deps.json
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\bin\Debug\net8.0\Day4.runtimeconfig.json
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\bin\Debug\net8.0\Day4.dll
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\bin\Debug\net8.0\Day4.pdb
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.AssemblyInfoInputs.cache
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.AssemblyInfo.cs
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.csproj.CoreCompileInputs.cache
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.dll
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\refint\Day4.dll
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.pdb
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\Day4.genruntimeconfig.cache
+C:\Users\aa1084\source\repos\adventofcode2023\Day4\obj\Debug\net8.0\ref\Day4.dll
