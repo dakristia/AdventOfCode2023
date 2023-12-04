@@ -2,6 +2,7 @@
 
 var inputFile = "input.txt";
 var exampleFile = "example.txt";
+var exampleBadFile = "exampleBad.txt";
 
 var lines = File.ReadAllLines(inputFile);
 
@@ -19,16 +20,11 @@ for (int yCord = 0; yCord < lines.Length; yCord++)
         {
             Console.WriteLine("Found a star at " + yCord + ", " + xCord);
             cogsWithTwoNumbers.Add(CalculateAdjacentNumbers(xCord, yCord));
-            // Check if surrounded by numbers
 
         }
     }
 }
 
-// foreach (var number in cogsWithTwoNumbers)
-// {
-//     Console.WriteLine(number);
-// }
 
 int sum = cogsWithTwoNumbers.Sum();
 Console.WriteLine($"Sum: {sum}");
@@ -51,7 +47,6 @@ int CalculateAdjacentNumbers(int x, int y)
         {
             try
             {
-
                 char currentChar = lines[yCord][xCord];
                 if (char.IsDigit(currentChar))
                 {
@@ -60,7 +55,6 @@ int CalculateAdjacentNumbers(int x, int y)
                         checkedXIndexes.Add(xCord);
                         continue; // If we've already checked the number to the left, we've found the full number
                     }
-                    // Console.WriteLine("Found a number at " + yCord + ", " + xCord);
                     numberOfNumbers++;
                     if (numberOfNumbers > 2) return 0;
 
@@ -86,8 +80,8 @@ int findFullNumber(int x, int y)
 {
     string fullNumber = "";
 
+
     string center = lines[y][x].ToString();
-    // Console.WriteLine("center: " + center);
     string left = "";
     string right = "";
 
@@ -99,7 +93,7 @@ int findFullNumber(int x, int y)
     }
 
     tempX = x + 1;
-    while (tempX <= lines[y].Length && char.IsDigit(lines[y][tempX]))
+    while (tempX < lines[y].Length && char.IsDigit(lines[y][tempX]))
     {
         right = right + lines[y][tempX].ToString();
         tempX++;
