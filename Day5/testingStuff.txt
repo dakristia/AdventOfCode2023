@@ -1,0 +1,33 @@
+79 + 14 = 93
+
+    Range 79-93 (exludes 93)
+
+    Possible seed-to-soil ranges:
+        50 98 2
+        52 50 48
+
+    Lowest seeds:
+        79 within ( 52 50 48 )
+            min 50, max 97
+            Becomes 81
+    
+    Highest seeds:
+        92 within ( 52 50 48 )
+            min 50, max 97
+            Becomes 94
+
+    New range for next map: 
+        81-95
+
+
+
+
+
+
+
+
+
+
+
+55 + 13 = 68
+
